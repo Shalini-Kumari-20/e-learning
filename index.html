@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-learning platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo">
+                    &nbsp;<img src="images/logo.png" />
+                </div>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <button><a href="#contact" style="color: white; font-weight: 700;">SignIn</a></button>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Home-->
+        <div id="Home">  
+            <div class="main">
+                <div class="quote">
+                    <p > <img src="images/bimage.png"/></p>
+                    <h2 >Education is the foundation of all we do in life. It shapes who we are and what we aspire to be.</h2>
+                    <h5>Education is the process of facilitating learning, or the acquisition of knowledge, skills,
+                          values, beliefs, and habits. Educational methods include teaching, training, storytelling,
+                           discussion and directed research!
+                    </h5>
+               </div>
+            </div>
+        </div>
+    <!-- Popular Subjects-->
+        <div class="title"><h2>Popular Subjects</h2></div>
+            <div class="bgimg1">
+                <div class="box">
+                    <div class="det">PYTHON</div>
+                    <div class="det">C/C++</div>
+                    <div class="det">JAVA</div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="det">JAVA SCRIPT</div>
+                <div class="det">MY SQL</div>
+                <div class="det">WEB DEVELOPMENT</div>
+            </div>
+        </div>
+    <!-- About-->
+        <div class="title">
+            <h2 id="About">About</h2>
+            <p  style="font-size:25px";>Education is the process of facilitating learning, or the acquisition of knowledge,
+                skills, values, beliefs, and habits. 
+                Educational methods include teaching, training, storytelling, discussion and directed research.<br>
+                Educational website can include websites that have games, videos or topic related resources
+                that act as tools to enhance learning and supplement classroom teaching.
+                These websites help make the process of learning entertaining and attractive to the student,
+                especially in today's age. <br>
+                Using HTML(HyperText Markup Language), CSS(Cascading Style Sheet), JavaScript, 
+                we can make learning more easier and in a interesting way.
+            </p>
+        </div>
+    <!--Portfolio-->
+         <div class="title">
+            <h2>Portfolio</h2>
+            <p style="font-size:25px";>“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” 
+                “Your attitude, not your aptitude, will determine your altitude.”
+                “If you think education is expensive, try ignorance.”
+                “The only person who is educated is the one who has learned how to learn …and change.”
+            </p>
+         </div>
+    <!-- Contact Us-->
+     <script type="text/javascript">
+        function submit_form(){
+            alert("Submitted successfully")
+        }
+     </script>
+        <div>
+            <div class="title" id="Contact"><h2>Contact Us</h2></div>
+                <div class="contact">
+                    <div class="form"><form onsubmit="submit_form()">
+                        <div>
+                            <label>First Name :</label><br>
+                            <input id="fn" type="text" name="f" placeholder="Enter your first name" "><br><br>
+                        </div>
+                    <div>
+                        <label>Last Name :</label><br>
+                        <input id="lname" type="text" name="lname" placeholder="Enter your last name"><br><br>
+                    </div>
+                    <div>
+                        <label>Enter Your Email :</label><br />
+                        <input id="email" type="email" name="email" placeholder="Enter your email id"><br><br>
+                    </div>
+                    <div>
+                        <label>Contact Number :</label><br />
+                        <input id="Pno" type="tel" name="Pno" placeholder="Enter your phone number"><br><br>
+                    </div>
+                    <div>
+                        <label>Address</label><br/>
+                        <textarea rows="3" cols="50" placeholder="Enter full address"></textarea><br><br>
+                    </div>
+                    <div > 
+                        <input type="submit" value="Submit" >
+                    </div></form>
+                </div>
+            </div>
+        </div>       
+    <!--Footer-->     
+    <footer>
+        <div class="bgblack">
+            <a href="#Home"> <img src="images/logo.png" ></a>
+        </div>
+        <div class="bgblack">
+            <div><img src="images/location.png"></div> 
+            <div><p>Jamshedpur</p></div>
+        </div>
+        <div class="bgblack">
+            <div>><img src="images/phone.png"></div>
+            <div><p>9142xxxxxx</p></div>
+        </div>
+        <div class="bgblack">
+            <div><img src="images/mail.png"></div>
+            <div><p>e.learning@gmail.com</p></div>
+        </div>
+    </form>
+</footer>
+</body>
+</html>
